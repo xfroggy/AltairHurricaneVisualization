@@ -1,3 +1,3 @@
-# AltairHurricaneVisualization
+# NOAA Hurricane Risk
 
-Jupyter Notebook using pandas and Altair to create visualizations of the NOAA historical data of Hurricanes from 1851 to present
+Software platform to determine RISK (probabiliyt of occurrence * Impact) of hurricane at a specific coordinate, using NOAA historical tracking data
