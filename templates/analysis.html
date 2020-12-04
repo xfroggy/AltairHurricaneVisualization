@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+<p>There have been <strong>{{total_hits}}</strong> hurricanes that have hit your coordinates since 1851</p>
+<p>There have been <strong>{{total_storms}}</strong> total hurricanes since 1851</p>
+<br>
+<p>There is a probability of occurrence (actual / total possible) of {{total_hits/total_storms}} of a storm hitting you</p>
+
+
+
+{% endblock %}

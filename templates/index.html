@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+
+<form action="/" method="post">
+  <label for="latitude">Enter latitude: </label>
+  <input id = "latitude" type="text" name="latitude" />
+  <label for="longitude">Enter longitude: </label>
+  <input id = "longitude" type = "text" name = "longitude"/>
+  <label for="radius">Enter radius: </label>
+  <input id = "radius" type = "text" name = "radius">
+  <input type="submit" />
+</form>
+
+{% endblock %}
